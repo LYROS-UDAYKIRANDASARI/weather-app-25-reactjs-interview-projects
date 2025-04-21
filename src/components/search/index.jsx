@@ -3,7 +3,7 @@ export default function Search({ search, setSearch, handleSearch }) {
     <div className="search-engine">
       <input
         type="text"
-        placeholder="Enter"
+        placeholder="Enter City "
         name="search"
         value={search}
         onChange={(event) => setSearch(event.target.value)}
